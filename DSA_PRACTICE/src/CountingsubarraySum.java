@@ -25,7 +25,6 @@ public class CountingsubarraySum {
                 else{
                     sum = pfsum[j]-pfsum[i-1];
                 }
-
                 if(sum<B){
                     count++;
                 }
